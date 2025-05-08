@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1746635870 source:d:\tetris_game\tetromino.cpp
+	"tetromino.h"
+	<random>
+	<ctime>
+
+1745571411 d:\tetris_game\tetromino.h
+	<vector>
+	<SDL.h>
+	"constants.h"
+
+1745564945 d:\tetris_game\constants.h
+	<SDL.h>
+
+1746635252 source:d:\tetris_game\main.cpp
+	"game.h"
+	<iostream>
+
+1745158224 d:\tetris_game\game.h
+	<SDL.h>
+	<SDL_ttf.h>
+	"grid.h"
+	"tetromino.h"
+	"menu.h"
+	"tetromino_bag.h"
+	"help.h"
+	"sound.h"
+	"constants.h"
+
+1745571408 d:\tetris_game\grid.h
+	<SDL.h>
+	"constants.h"
+	"tetromino.h"
+
+1746638584 source:d:\tetris_game\game.cpp
+	"game.h"
+	<SDL_image.h>
+	<fstream>
+	<iostream>
+	<algorithm>
+
+1746634577 source:d:\tetris_game\grid.cpp
+	"grid.h"
+
+1746442109 d:\tetris_game\menu.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+	"constants.h"
+
+1745132689 d:\tetris_game\tetromino_bag.h
+	<vector>
+	"tetromino.h"
+
+1745158475 d:\tetris_game\help.h
+	<SDL.h>
+	<SDL_ttf.h>
+	"constants.h"
+	<string>
+
+1745132689 d:\tetris_game\sound.h
+	<SDL_mixer.h>
+
+1746442104 source:d:\tetris_game\sound.cpp
+	"sound.h"
+	<iostream>
+
+1746442106 source:d:\tetris_game\tetromino_bag.cpp
+	"tetromino_bag.h"
+	<algorithm>
+
+1746635252 source:d:\tetris_game\menu.cpp
+	"menu.h"
+	<SDL_image.h>
+	<iostream>
+
+1746442106 source:d:\tetris_game\help.cpp
+	"help.h"
+
