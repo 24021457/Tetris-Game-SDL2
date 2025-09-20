@@ -427,7 +427,7 @@ void Game::render() {
         }
 
         if (showGameOver && !showNewHighScore) { // Chỉ hiển thị Game Over nếu không hiển thị điểm cao
-            std::string gameOverText = "GAME";
+            std::string gameOverText = "GAME Over";
             std::string replayText = "Press R to Replay";
             std::string returnText = "Press Enter to Return to Menu";
             SDL_Surface* surfaceGO = TTF_RenderText_Solid(fontSmall, gameOverText.c_str(), COLOR_RED);
